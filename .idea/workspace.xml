@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1f25fc4-8eab-4422-b0ec-6e45446eea4c" name="Changes" comment="" />
+    <list default="true" id="b1f25fc4-8eab-4422-b0ec-6e45446eea4c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/ScoreBoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScoreBoardTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ScoreBoardTest">
+  <component name="RunManager" selected="JUnit.ScoreBoardTest.NewScoreBoardTest">
     <configuration name="ScoreBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Scoreboard" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,6 +86,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ScoreBoardTest.NewScoreBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Scoreboard" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ScoreBoardTest" />
+      <option name="METHOD_NAME" value="NewScoreBoardTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ScoreBoardTest.StartGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Scoreboard" />
       <option name="PACKAGE_NAME" value="" />
@@ -94,23 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScoreBoardTest.UpdateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Scoreboard" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ScoreBoardTest" />
-      <option name="METHOD_NAME" value="UpdateTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ScoreBoardTest.NewScoreBoardTest" />
         <item itemvalue="JUnit.ScoreBoardTest" />
         <item itemvalue="JUnit.ScoreBoardTest.GamesInProgressTest" />
         <item itemvalue="JUnit.ScoreBoardTest.NewBoardTest" />
         <item itemvalue="JUnit.ScoreBoardTest.StartGameTest" />
-        <item itemvalue="JUnit.ScoreBoardTest.UpdateTest" />
       </list>
     </recent_temporary>
   </component>

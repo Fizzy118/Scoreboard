@@ -6,9 +6,10 @@ public class ScoreBoardTest {
 
 
     @Test
-    public void NewBoardTest(){
+    public void NewScoreBoardTest(){
         ScoreBoard worldCup = new ScoreBoard();
         assertNotNull(worldCup);
+        assertNotNull(worldCup.matches);
     }
     @Test
     public void StartGameTest(){
