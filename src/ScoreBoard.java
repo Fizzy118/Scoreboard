@@ -17,6 +17,9 @@ public class ScoreBoard {
     //Returns all games that are currently in progress in order.
     public List<Match> GamesInProgress(){
         matches.sort(myComparator);
+        if(matches.isEmpty()) {
+            System.out.println("No matches in progress");
+        }
         return matches;
     }
 

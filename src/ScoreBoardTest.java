@@ -1,4 +1,6 @@
 import org.junit.Test;
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 
@@ -43,4 +45,9 @@ public class ScoreBoardTest {
         assertEquals(worldCupFinal, worldCup.GamesInProgress().get(2));
     }
 
+    @Test
+    public void NoGamesInProgressTest(){
+        ScoreBoard worldCup = new ScoreBoard();
+        assertEquals(List.of(),worldCup.GamesInProgress());
+    }
 }
